@@ -1,0 +1,36 @@
+TERMINAL
+
+- PARA CRIAR UM REPOSITÓRIO
+	
+	mkdir nome_repositorio
+
+- PARA INICIAR O GIT NESSA PASTA (REPOSITÓRIO)
+
+	git init
+
+APÓS CRIADO O REPOSITÓRIO, VOCÊ PODE ADCIONAR SEUS ARQUIVOS... E PARA ISSO
+FAÇA...
+
+	git add .
+	ou git add *
+	ou git add -a
+
+- PARA COMITAR, FAÇA...
+	
+	git commit -m "aqui tem uma mensagem"
+
+- PARA VER O STATUS
+
+	git status
+
+- ENVIANDO (EMPURRAR) ARQUIVOS DA SUA MÁQUINA PARA A NUVEM
+
+	git push origin master
+
+- PARA PEGAR (PUXAR) ARQUIVOS DA NUVEM PARA A MÁQUINA
+
+	git pull origin master
+
+- PARA CLONAR UM REPOSITÓRIO PARA SUA MÁQUINA
+
+	git clone <aqui você coloca a URI>
